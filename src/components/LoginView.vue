@@ -13,7 +13,6 @@
     </div>
     <span v-if="showError" class="error-message">{{ errorMessage }}</span>
     <div class="mb-3">
-      <v-btn>test</v-btn>
       <button class="btn btn-outline-dark" type="submit" v-on:click.prevent="loginClick()">Login</button>
       <button class=" btn btn-outline-dark" type="button">Register</button>
     </div>
